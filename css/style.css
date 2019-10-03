@@ -1,0 +1,208 @@
+body {
+  width: 900px;
+  margin: 10px auto;
+background:linear-gradient(#b3daf2, #7a7ebf, #253f9c, #233780)
+
+}
+
+
+nav ul li a span {
+	position: absolute; left: 580px; top: 29px;
+	display: none;
+}
+
+nav ul li a {
+	display: block; width: 120px; height: 25px;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* These are to shape all the different tabs */
+
+a:hover:nth-child(1) {
+background: radial-gradient(#14913a, #014f3f);
+border-style: ridge;
+border-color: #4b4c47;
+}
+
+	nav ul li:nth-child(1) a {
+		background: linear-gradient(#14913a, #203455);
+      border-radius: 50%;
+      height: 120px;
+    border-style: ridge;
+    border-color: orange;
+    color: #f7e6a1;
+	}
+	nav ul li:nth-child(2) a {
+    background: linear-gradient(#406db8, #2b4878);
+    border-radius: 50%;
+    height: 120px;
+    border-style: ridge;
+    border-color: #4b4c47;
+	}
+	nav ul li:nth-child(3) a {
+    background: linear-gradient(#406db8, #2b4878);
+    border-radius: 50%;
+    height: 120px;
+    border-style: ridge;
+    border-color: #4b4c47;
+	}
+	nav ul li:nth-child(4) a {
+    background: linear-gradient(#406db8, #2b4878);
+    border-radius: 50%;
+    height: 120px;
+    border-style: ridge;
+    border-color: #4b4c47;
+	}
+
+
+
+
+
+
+
+
+/* properties like spacing, display, etc*/
+
+nav ul {
+	list-style: none; overflow: hidden; position: relative;
+}
+	nav ul li {
+		float: left; margin: 0 10px 0 0;
+	}
+
+nav li {
+  display: inline;
+  padding: 20px;
+  color: #a9edff;
+    margin-bottom: 50px;
+  }
+
+  nav a.link {
+    color: #4b4c47;
+      text-align: center;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  height: 20px;
+  background-color: #4b4c47;
+  border-style: ridge;
+  border-color: #4b4c47;
+
+  color: #a9edff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* text properties */
+
+h1 {
+  font-family: all-round-gothic, sans-serif;
+font-weight: 200;
+font-style: normal;
+  color: #a9edff;
+  font-size: 40px;
+}
+h2 {
+font-family: 'Skranji', cursive;
+  color: #14cc2d;
+  font-size: 18px;
+}
+h3 {
+font-family: 'Kavivanar', cursive;
+  color: #a9edff;
+  font-size: 24px;}
+
+p {
+
+  font-family: 'Kavivanar', cursive;
+  color: #a9edff;
+  font-size: 12px;
+
+}
+a:link {
+  text-decoration: none;
+  color: #a9edff;
+  font-family: 'Kavivanar', cursive;
+  text-align: center;
+
+}
+
+a:visited {
+  color: #C9A676;
+}
+
+a:hover {
+  background: linear-gradient(#34e3aa, black);
+  border-style: ridge;
+  border-color: #4b4c47;
+  color: #34e3aa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Just for the boxes for the style tile. */
+
+#boxone, #boxtwo, #boxthree, #boxfour {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  display: inline-block;
+
+  margin: 10px;
+  color: white;
+}
+#boxone {
+  background-color: #4b4c47;
+  border-style: solid;
+  border-color: black;
+}
+#boxtwo {
+  background-color: #14cc2d;
+  border-style: ridge;
+  border-color: #4b4c47;
+
+}
+#boxthree {
+  border-style: ridge;
+  border-color: #4b4c47;
+  background-color: #2b4878;
+}
+#boxfour {
+  border-style: ridge;
+  border-color: #4b4c47;
+  background-color: #a9edff;
+}
